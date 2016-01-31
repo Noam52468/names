@@ -1,0 +1,6 @@
+echo "# names" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/Noam52468/names.git
+git push -u origin master
